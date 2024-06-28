@@ -62,6 +62,9 @@ next.addEventListener("click", () => {
         if (countQuestions < questions.length - 1) {
             countQuestions++
             test()
+            if (countQuestions == questions.length - 1) {
+                next.innerText = 'Finish';
+            }
         }
         else {
             box.style.display = 'none';
