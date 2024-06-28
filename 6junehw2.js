@@ -43,8 +43,6 @@ function randomBoolean() {
     }
 }
 
-randomBoolean();
-
 function test() {
     let bool = randomBoolean();
     question.innerHTML = `<p>${countQuestions + 1}) ${questions[countQuestions]['question']}</p>
