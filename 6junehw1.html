@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="6junehw1.js" defer></script>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        .message-add {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .box {
+            margin: 10px;
+        }
+
+        .message-add button {
+            width: 300px;
+        }
+
+        .gallery {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .first {
+            width: 80%;
+        }
+
+        .message table {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            width: 1000px;
+            margin: 20px;
+        }
+
+        .message td {
+            padding: 10px;
+            border-bottom: 1px solid grey;
+        }
+
+        .box span {
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="gallery">
+        <div class="message">
+            <table>
+                <tr>
+                    <td class="first">Name</td>
+                    <td>10:05:00 22.03.2018</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minus fugit beatae atque
+                        asperiores
+                        recusandae, doloribus corrupti sequi earum distinctio, placeat excepturi quidem ea animi
+                        laboriosam
+                        quis reprehenderit, cupiditate possimus aliquam voluptatem laudantium dolorem dolor? Delectus,
+                        amet
+                        minus explicabo, doloremque unde tempore nemo totam sapiente voluptatibus aspernatur architecto
+                        assumenda distinctio.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="message-add">
+        <h2>Add new message</h2>
+        <div class="box">
+            <span>Your name: </span> <input id="nickname" type="text">
+        </div>
+        <div class="box">
+            <span>Your message: </span> <input id="mtext" type="text">
+        </div>
+        <button>Send</button>
+    </div>
+</body>
+
+</html>
